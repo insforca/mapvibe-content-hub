@@ -8,6 +8,7 @@ keywords:
   - Mexico expat map art
   - custom Mexico map poster
   - diaspora Mexico map print
+cover_image: /assets/images/hero-mexico.jpg
 ---
 
 # 🇲🇽 Mexico City Map Prints

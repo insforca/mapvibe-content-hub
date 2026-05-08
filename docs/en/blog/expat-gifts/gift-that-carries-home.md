@@ -23,6 +23,7 @@ ui_assets_needed:
   - finished print wall mockup — warm apartment setting, diaspora feel
   - gift framing example
   - editor screenshot — someone's hometown neighbourhood being configured
+cover_image: /assets/images/hero-gift-that-carries-home.jpg
 ---
 
 # The Gift That Carries Home
@@ -43,7 +44,7 @@ Anyone can buy a generic print of São Paulo. Getting someone a print of the *ex
 
 It says: I knew exactly where you were from. I looked it up. I made something just for you.
 
-<!-- IMAGE: finished map print on apartment wall, warm tones, feels personal -->
+![Gift that carries home — custom map print](/assets/images/hero-gift-that-carries-home.jpg)
 
 ---
 

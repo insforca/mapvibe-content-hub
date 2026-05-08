@@ -19,11 +19,20 @@ module.exports = defineConfig({
   i18n: {
     default: 'en',
     locales: [
-      { id: 'en', label: 'English' },
-      { id: 'pt', label: 'Português' },       // Brazilian diaspora
-      { id: 'es', label: 'Español' },          // Venezuelan / Colombian / Mexican / Cuban
+      { id: 'en',    label: 'English' },
+      { id: 'pt',    label: 'Português' },       // Portuguese (Portugal)
+      { id: 'pt-BR', label: 'Português (Brasil)' }, // Brazilian Portuguese — primary diaspora
+      { id: 'es',    label: 'Español' },          // Venezuelan / Colombian / Mexican / Cuban
+      { id: 'fr',    label: 'Français' },          // French-speaking expats
     ]
   },
+
+  // --- Custom brand CSS ---
+  head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'stylesheet', href: '/assets/brand.css' }],
+  ],
 
   // --- Navigation ---
   // Auto-generated from folder structure.

@@ -21,6 +21,7 @@ ui_assets_needed:
   - neighbourhood zoom — São Paulo Vila Madalena or Caracas Chacao
   - bearing 30° comparison vs 0° on same neighbourhood
   - finished print mockup on a wall
+cover_image: /assets/images/hero-expat-memento.jpg
 ---
 
 # When You Move Abroad, You Start Seeing Home Differently
@@ -51,7 +52,7 @@ You can:
 
 The result isn't a city map. It's a memory, printed.
 
-<!-- IMAGE: neighbourhood zoom — Vila Madalena at 30° bearing, Mediterranean Vibes theme, wall mockup -->
+![Neighbourhood map print — expat memento](/assets/images/hero-expat-memento.jpg)
 
 ---
 

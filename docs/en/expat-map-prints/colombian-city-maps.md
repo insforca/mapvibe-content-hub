@@ -8,6 +8,7 @@ keywords:
   - Colombia expat map art
   - custom Colombia map poster
   - diaspora Colombia map print
+cover_image: /assets/images/hero-colombia.jpg
 ---
 
 # 🇨🇴 Colombia City Map Prints

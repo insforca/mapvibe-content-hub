@@ -8,6 +8,7 @@ keywords:
   - Cuba expat map art
   - custom Cuba map poster
   - diaspora Cuba map print
+cover_image: /assets/images/hero-cuba.jpg
 ---
 
 # 🇨🇺 Cuba City Map Prints

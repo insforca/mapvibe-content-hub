@@ -1,0 +1,289 @@
+/* ============================================================
+   MapVibe Studio — Brand Identity Override
+   Navy #1B2A4A | Gold #C9A96E | Surface #F5EDE4
+   Geist (body) / Playfair Display (display/poster headings)
+   4px grid baseline
+   ============================================================ */
+
+/* --- Google Fonts import --- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Geist:wght@300;400;500;600&display=swap');
+
+/* --- Design tokens as CSS custom properties --- */
+:root {
+  --mv-navy:      #1B2A4A;
+  --mv-gold:      #C9A96E;
+  --mv-surface:   #F5EDE4;
+  --mv-gold-dark: #A8844A;
+  --mv-navy-light:#2C4070;
+  --mv-surface-alt: #EFE5D9;
+  --mv-text:      #1B2A4A;
+  --mv-text-muted: #4A5A7A;
+  --mv-radius:    4px;
+  --mv-radius-lg: 8px;
+}
+
+/* --- Base / body --- */
+body {
+  background-color: var(--mv-surface);
+  color: var(--mv-text);
+  font-family: 'Geist', 'Inter', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Headings: Playfair Display --- */
+h1, h2, h3, h4, h5, h6,
+.doc-title,
+.hero-title,
+.page-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: var(--mv-navy);
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: clamp(1.75rem, 4vw, 2.75rem); margin-bottom: 1rem; }
+h2 { font-size: clamp(1.35rem, 3vw, 2rem); margin-top: 2.5rem; margin-bottom: 0.75rem; }
+h3 { font-size: 1.25rem; margin-top: 2rem; margin-bottom: 0.5rem; }
+
+/* --- Links --- */
+a {
+  color: var(--mv-navy);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+a:hover {
+  color: var(--mv-gold-dark);
+}
+
+/* --- Navigation / sidebar --- */
+.nav,
+.sidebar,
+[class*="sidebar"],
+[class*="nav-"] {
+  background-color: var(--mv-navy);
+  color: var(--mv-surface);
+}
+.nav a,
+.sidebar a,
+[class*="nav-"] a {
+  color: var(--mv-surface);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.nav a:hover,
+.sidebar a:hover,
+[class*="nav-"] a:hover,
+[class*="nav-"] a[aria-current="page"] {
+  color: var(--mv-gold);
+}
+
+/* --- Site header / top bar --- */
+header,
+.doc-header,
+[class*="header"] {
+  background-color: var(--mv-navy);
+  border-bottom: 2px solid var(--mv-gold);
+}
+header a,
+.doc-header a {
+  color: var(--mv-surface) !important;
+}
+
+/* --- Hero section (:::hero container) --- */
+.hero,
+[class*="hero-section"],
+[class*="hero-block"] {
+  background: linear-gradient(135deg, var(--mv-navy) 0%, var(--mv-navy-light) 100%);
+  color: var(--mv-surface);
+  padding: 4rem 2rem;
+  border-radius: var(--mv-radius-lg);
+  text-align: center;
+  margin: 2rem 0;
+}
+.hero h1,
+.hero h2,
+.hero p {
+  color: var(--mv-surface);
+}
+.hero a {
+  display: inline-block;
+  background-color: var(--mv-gold);
+  color: var(--mv-navy) !important;
+  font-family: 'Geist', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  border-radius: var(--mv-radius);
+  text-decoration: none;
+  letter-spacing: 0.025em;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+  margin-top: 1rem;
+}
+.hero a:hover {
+  background-color: var(--mv-gold-dark);
+  transform: translateY(-1px);
+}
+
+/* --- CTA / primary button anywhere --- */
+a[href*="app.mapvibestudio.com"],
+.btn-primary,
+[class*="cta-button"],
+[class*="btn-cta"] {
+  display: inline-block;
+  background-color: var(--mv-gold);
+  color: var(--mv-navy) !important;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: var(--mv-radius);
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+a[href*="app.mapvibestudio.com"]:hover,
+.btn-primary:hover {
+  background-color: var(--mv-gold-dark);
+}
+
+/* --- Article / content area --- */
+.content,
+.doc-content,
+article,
+main {
+  background-color: var(--mv-surface);
+}
+
+/* --- Post hero image --- */
+.post-hero-image,
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: var(--mv-radius-lg);
+  margin: 0 0 2.5rem;
+  display: block;
+}
+
+/* First img in article that follows h1 acts as hero */
+article > img:first-of-type,
+.doc-content > img:first-of-type {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: var(--mv-radius-lg);
+  margin: 0 0 2.5rem;
+}
+
+/* --- Inline images mid-article --- */
+.doc-content img,
+article img {
+  max-width: 100%;
+  border-radius: var(--mv-radius);
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* --- Code blocks --- */
+pre, code {
+  font-family: 'Geist Mono', 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.875rem;
+  background-color: var(--mv-surface-alt);
+  border: 1px solid rgba(27, 42, 74, 0.12);
+  border-radius: var(--mv-radius);
+}
+
+/* --- Blockquote --- */
+blockquote {
+  border-left: 4px solid var(--mv-gold);
+  background: var(--mv-surface-alt);
+  padding: 1rem 1.5rem;
+  border-radius: 0 var(--mv-radius) var(--mv-radius) 0;
+  color: var(--mv-text-muted);
+  font-style: italic;
+}
+
+/* --- Horizontal rule --- */
+hr {
+  border: none;
+  border-top: 1px solid var(--mv-gold);
+  opacity: 0.4;
+  margin: 3rem 0;
+}
+
+/* --- Search bar --- */
+input[type="search"],
+[class*="search-input"] {
+  background: var(--mv-surface);
+  border: 1px solid var(--mv-gold);
+  border-radius: var(--mv-radius);
+  color: var(--mv-navy);
+  padding: 0.5rem 1rem;
+}
+input[type="search"]:focus {
+  outline: 2px solid var(--mv-gold);
+  outline-offset: 1px;
+}
+
+/* --- Table --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+th {
+  background: var(--mv-navy);
+  color: var(--mv-surface);
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(27, 42, 74, 0.1);
+}
+tr:nth-child(even) td {
+  background: var(--mv-surface-alt);
+}
+
+/* --- Callout containers (tip / note / info) --- */
+.tip, .note, .info {
+  border-left: 4px solid var(--mv-gold);
+  background: var(--mv-surface-alt);
+  border-radius: 0 var(--mv-radius) var(--mv-radius) 0;
+  padding: 0.875rem 1.25rem;
+}
+.warning {
+  border-left: 4px solid #E2A030;
+}
+.danger {
+  border-left: 4px solid #C94040;
+}
+
+/* --- Footer --- */
+footer,
+.doc-footer {
+  background: var(--mv-navy);
+  color: rgba(245, 237, 228, 0.7);
+  font-size: 0.8rem;
+  border-top: 2px solid var(--mv-gold);
+}
+footer a {
+  color: var(--mv-gold);
+}
+
+/* --- Scrollbar (Webkit) --- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--mv-surface); }
+::-webkit-scrollbar-thumb { background: var(--mv-gold); border-radius: 3px; }
+
+/* --- Selection --- */
+::selection {
+  background: var(--mv-gold);
+  color: var(--mv-navy);
+}

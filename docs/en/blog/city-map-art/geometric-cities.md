@@ -24,6 +24,7 @@ ui_assets_needed:
   - Washington DC showing diagonal avenues over grid
   - Optional: Barcelona Eixample showing chamfered octagonal blocks
   - Use Mediterranean Vibes or Minimalist theme for clean geometry
+cover_image: /assets/images/hero-geometric-cities.jpg
 ---
 
 # Cities With Extraordinary Map Geometry (That Aren't NYC)
@@ -44,7 +45,7 @@ James Oglethorpe's 1733 plan created a city built entirely around squares — 22
 
 **Best print settings:** Medium zoom (neighbourhood level), bearing 0° or 45°, Minimalist or Mediterranean Vibes theme.
 
-<!-- IMAGE: Savannah at medium zoom, showing 4-6 squares, minimalist theme -->
+![Geometric city map art — Savannah grid](/assets/images/hero-geometric-cities.jpg)
 
 ---
 
