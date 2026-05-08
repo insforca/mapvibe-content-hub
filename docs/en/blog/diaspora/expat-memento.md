@@ -21,7 +21,7 @@ ui_assets_needed:
   - neighbourhood zoom — São Paulo Vila Madalena or Caracas Chacao
   - bearing 30° comparison vs 0° on same neighbourhood
   - finished print mockup on a wall
-cover_image: /assets/images/expat-memento_sao-paulo-vila-madalena-30deg.png
+cover_image: https://cdn.shopify.com/s/files/1/1036/6422/2549/t/5/assets/blog-hero-expat-memento.jpg
 ---
 
 # When You Move Abroad, You Start Seeing Home Differently

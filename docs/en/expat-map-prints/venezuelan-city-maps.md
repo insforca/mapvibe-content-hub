@@ -8,7 +8,7 @@ keywords:
   - Venezuela expat map art
   - custom Venezuela map poster
   - diaspora Venezuela map print
-cover_image: /assets/images/hero-venezuela.jpg
+cover_image: https://cdn.shopify.com/s/files/1/1036/6422/2549/t/5/assets/blog-hero-venezuelan-city-maps.jpg
 ---
 
 # 🇻🇪 Venezuela City Map Prints

@@ -21,7 +21,7 @@ ui_assets_needed:
   - zoom-in progression from country level to village level
   - side-by-side — big city print vs small village print at same zoom level
   - example small town with visible grid geometry (Savannah, or a Latin American village with plaza grid)
-cover_image: /assets/images/village-zoom-demo.png
+cover_image: https://cdn.shopify.com/s/files/1/1036/6422/2549/t/5/assets/blog-hero-village-map-prints.jpg
 ---
 
 # Not Just Big Cities: The Village Map You Never Knew You Needed

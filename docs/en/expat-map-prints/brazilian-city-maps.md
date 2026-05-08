@@ -8,7 +8,7 @@ keywords:
   - Brazil expat map art
   - custom Brazil map poster
   - diaspora Brazil map print
-cover_image: /assets/images/hero-brazil.jpg
+cover_image: https://cdn.shopify.com/s/files/1/1036/6422/2549/t/5/assets/blog-hero-brazilian-city-maps.jpg
 ---
 
 # 🇧🇷 Brazil City Map Prints

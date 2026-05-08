@@ -24,7 +24,7 @@ ui_assets_needed:
   - Washington DC showing diagonal avenues over grid
   - Optional: Barcelona Eixample showing chamfered octagonal blocks
   - Use Mediterranean Vibes or Minimalist theme for clean geometry
-cover_image: /assets/images/grid-brasilia.png
+cover_image: https://cdn.shopify.com/s/files/1/1036/6422/2549/t/5/assets/blog-hero-geometric-cities.jpg
 ---
 
 # Cities With Extraordinary Map Geometry (That Aren't NYC)

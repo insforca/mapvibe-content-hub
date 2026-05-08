@@ -20,7 +20,7 @@ ui_assets_needed:
   - side-by-side: stock north-up São Paulo (or NYC) vs MapVibe neighbourhood zoom at 30° custom bearing
   - theme comparison on same city — showing personalization range
   - bearing rotation video: same city rotating from 0° to 180°
-cover_image: /assets/images/bearing-grid-sao-paulo.png
+cover_image: https://cdn.shopify.com/s/files/1/1036/6422/2549/t/5/assets/blog-hero-your-angle-vs-tourist-angle.jpg
 ---
 
 # Your Angle vs. The Tourist's Angle

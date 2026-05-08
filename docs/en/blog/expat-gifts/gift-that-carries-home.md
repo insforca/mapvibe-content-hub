@@ -23,7 +23,7 @@ ui_assets_needed:
   - finished print wall mockup — warm apartment setting, diaspora feel
   - gift framing example
   - editor screenshot — someone's hometown neighbourhood being configured
-cover_image: /assets/images/gift-that-carries-home_latin-city-med-vibes-30deg.png
+cover_image: https://cdn.shopify.com/s/files/1/1036/6422/2549/t/5/assets/blog-hero-gift-that-carries-home.jpg
 ---
 
 # The Gift That Carries Home
