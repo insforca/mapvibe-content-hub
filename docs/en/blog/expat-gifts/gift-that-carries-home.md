@@ -46,7 +46,7 @@ It says: I knew exactly where you were from. I looked it up. I made something ju
 
 ![Latin city map print — Mediterranean Vibes 30° bearing](/assets/images/gift-that-carries-home_latin-city-med-vibes-30deg.png)
 
-*Cartagena (Spain) at 30° in Mediterranean Vibes — warm terracotta tones, coastal geometry, the kind of print that stops people mid-conversation.*
+*Cartagena de Indias, Colombia at 30° in Mediterranean Vibes — the Old City's coral-and-cream geometry, warm coastal light, the kind of print that stops people mid-conversation.*
 
 ---
 
