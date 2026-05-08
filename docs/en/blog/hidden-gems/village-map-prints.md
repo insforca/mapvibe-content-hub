@@ -21,6 +21,7 @@ ui_assets_needed:
   - zoom-in progression from country level to village level
   - side-by-side — big city print vs small village print at same zoom level
   - example small town with visible grid geometry (Savannah, or a Latin American village with plaza grid)
+cover_image: /assets/images/village-zoom-demo.png
 ---
 
 # Not Just Big Cities: The Village Map You Never Knew You Needed
@@ -43,7 +44,9 @@ If your hometown exists as a set of streets — and it does, even if it has 800 
 
 No minimum city size. No minimum population. No list of "available cities."
 
-<!-- IMAGE: zoom progression — starting from country level, zooming into a small town, then street level -->
+![Village zoom progression — country level to street level in one map](/assets/images/village-zoom-demo.png)
+
+*Zoom in from any level. The editor starts from country scale and goes down to individual streets.*
 
 ---
 
@@ -84,7 +87,7 @@ If you know someone from a small town — a fellow expat, a family member, a fri
 
 It says: *I know exactly where you come from. Not the country. Not the nearest big city. The place.*
 
-<!-- IMAGE: example small-town print on wall with warm framing -->
+*💡 Tip: Frame small-town prints at A2 or larger — the street geometry deserves space to breathe.*
 
 ---
 

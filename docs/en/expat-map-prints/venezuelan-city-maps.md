@@ -182,6 +182,10 @@ MapVibe lets you print *your* Venezuelan city exactly as you see it. Not the pos
 
 ## Popular Cities
 
+![Caracas multi-theme grid — same neighbourhood, 6 different visual styles](/assets/images/theme-grid-caracas.png)
+
+*Caracas Chacao across 6 MapVibe themes. Each one changes the feeling — pick the one that matches your memory.*
+
 **Caracas, Maracaibo, Valencia, Mérida, Barquisimeto** — and any city, *barrio*, or village in between.
 
 ::: tip

@@ -20,7 +20,7 @@ ui_assets_needed:
   - side-by-side: stock north-up São Paulo (or NYC) vs MapVibe neighbourhood zoom at 30° custom bearing
   - theme comparison on same city — showing personalization range
   - bearing rotation video: same city rotating from 0° to 180°
-cover_image: /assets/images/hero-your-angle.jpg
+cover_image: /assets/images/bearing-grid-sao-paulo.png
 ---
 
 # Your Angle vs. The Tourist's Angle
@@ -71,13 +71,17 @@ And if you're from São Paulo, Caracas, Bogotá, Mexico City — your version of
 
 ---
 
+![MapVibe bearing control UI — rotate your map to any angle](/assets/images/bearing-control-ui.png)
+
+![São Paulo bearing rotation — animated](/assets/images/bearing-grid-sao-paulo.gif)
+
 ## The Bearing That Changes Everything
 
 Most people don't know their bearing until they try changing it.
 
 The default is 0° — north up. Try 30°. Try 45°. For many cities, diagonal bearings reveal the underlying street geometry in a way that flat north-up never does.
 
-![Your angle vs tourist angle — bearing comparison](/assets/images/hero-your-angle.jpg)
+![São Paulo 4-bearing comparison grid — how rotation changes everything](/assets/images/bearing-grid-sao-paulo.png)
 
 The city transforms. Streets that were horizontal become dynamic diagonals. Blocks that looked like rectangles show their true angles.
 

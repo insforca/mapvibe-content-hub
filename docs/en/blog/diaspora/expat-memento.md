@@ -21,7 +21,7 @@ ui_assets_needed:
   - neighbourhood zoom — São Paulo Vila Madalena or Caracas Chacao
   - bearing 30° comparison vs 0° on same neighbourhood
   - finished print mockup on a wall
-cover_image: /assets/images/hero-expat-memento.jpg
+cover_image: /assets/images/expat-memento_sao-paulo-vila-madalena-30deg.png
 ---
 
 # When You Move Abroad, You Start Seeing Home Differently
@@ -52,7 +52,7 @@ You can:
 
 The result isn't a city map. It's a memory, printed.
 
-![Neighbourhood map print — expat memento](/assets/images/hero-expat-memento.jpg)
+![São Paulo Vila Madalena at 30° bearing — Mediterranean Vibes theme](/assets/images/expat-memento_sao-paulo-vila-madalena-30deg.png)
 
 ---
 
@@ -76,9 +76,17 @@ North-up is how cartographers orient maps. It's not necessarily how *you* experi
 
 If your main street ran at 45°, try a 45° bearing — your neighbourhood suddenly snaps into familiar orientation. Streets align the way you remember them. That's the version that belongs on your wall.
 
-<!-- IMAGE: bearing comparison — same neighbourhood at 0° vs 30° vs 45° -->
+![Caracas 0° vs 30° bearing — full spread comparison](/assets/images/expat-memento_before-after-bearing.png)
+
+*Left: Caracas Chacao at 0° (north-up). Right: same neighbourhood at 30° Mediterranean Vibes.*
+
+![Caracas Chacao — 0° Mediterranean Vibes](/assets/images/expat-memento_caracas-chacao-0deg-med-vibes.png)
+
+![Caracas Chacao — 30° Mediterranean Vibes](/assets/images/expat-memento_caracas-chacao-30deg-med-vibes.png)
 
 ---
+
+![Expat memento map print — wall mockup](/assets/images/expat-memento_print-mockup.png)
 
 ## Frequently Asked Questions
 

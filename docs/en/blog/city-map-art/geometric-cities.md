@@ -24,7 +24,7 @@ ui_assets_needed:
   - Washington DC showing diagonal avenues over grid
   - Optional: Barcelona Eixample showing chamfered octagonal blocks
   - Use Mediterranean Vibes or Minimalist theme for clean geometry
-cover_image: /assets/images/hero-geometric-cities.jpg
+cover_image: /assets/images/grid-brasilia.png
 ---
 
 # Cities With Extraordinary Map Geometry (That Aren't NYC)
@@ -45,7 +45,9 @@ James Oglethorpe's 1733 plan created a city built entirely around squares — 22
 
 **Best print settings:** Medium zoom (neighbourhood level), bearing 0° or 45°, Minimalist or Mediterranean Vibes theme.
 
-![Geometric city map art — Savannah grid](/assets/images/hero-geometric-cities.jpg)
+![Brasília pilot plan — north-up, the geometric masterplan revealed](/assets/images/grid-brasilia.png)
+
+![Brasília pilot plan at 45° — the axis rotates, the geometry intensifies](/assets/images/grid-brasilia-45deg.png)
 
 ---
 
@@ -57,7 +59,9 @@ Chicago's street grid is one of the most rigidly planned in the world — and it
 
 **Best print settings:** Medium zoom (downtown + lakefront), bearing 30–45°, Vintage Noir or Minimalist theme.
 
-<!-- IMAGE: Chicago at 35° bearing, vintage noir theme, showing grid and lakefront -->
+![La Plata, Argentina — orthogonal grid, north-up](/assets/images/grid-la-plata.png)
+
+![La Plata at 30° bearing — the diagonal reveals the full Eixample-like plan](/assets/images/grid-la-plata-30deg.png)
 
 ---
 
@@ -69,7 +73,7 @@ At medium zoom, DC's map looks like a spiderweb overlaid on graph paper. It's on
 
 **Best print settings:** Medium zoom (central DC + Mall), bearing 0° or 45°, Vintage Noir or Mediterranean Vibes theme.
 
-<!-- IMAGE: Washington DC central plan, showing radial + grid intersection -->
+*Both Brasília (above) and La Plata share the same principle: a geometric plan so intentional that any bearing other than north reveals something new.*
 
 ---
 
