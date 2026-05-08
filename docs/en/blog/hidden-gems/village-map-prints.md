@@ -87,7 +87,9 @@ If you know someone from a small town — a fellow expat, a family member, a fri
 
 It says: *I know exactly where you come from. Not the country. Not the nearest big city. The place.*
 
-*💡 Tip: Frame small-town prints at A2 or larger — the street geometry deserves space to breathe.*
+![Small-town plaza grid print — Tiradentes, Minas Gerais](/assets/images/village-map-prints_small-town-plaza-grid.png)
+
+*Tiradentes, Minas Gerais — a colonial town so small it barely appears on regional maps. At street-level zoom in Vintage Noir, the plaza geometry becomes the whole composition.*
 
 ---
 

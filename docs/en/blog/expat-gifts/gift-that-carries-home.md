@@ -23,7 +23,7 @@ ui_assets_needed:
   - finished print wall mockup — warm apartment setting, diaspora feel
   - gift framing example
   - editor screenshot — someone's hometown neighbourhood being configured
-cover_image: /assets/images/hero-gift-that-carries-home.jpg
+cover_image: /assets/images/gift-that-carries-home_latin-city-med-vibes-30deg.png
 ---
 
 # The Gift That Carries Home
@@ -44,7 +44,9 @@ Anyone can buy a generic print of São Paulo. Getting someone a print of the *ex
 
 It says: I knew exactly where you were from. I looked it up. I made something just for you.
 
-![Gift that carries home — custom map print](/assets/images/hero-gift-that-carries-home.jpg)
+![Latin city map print — Mediterranean Vibes 30° bearing](/assets/images/gift-that-carries-home_latin-city-med-vibes-30deg.png)
+
+*Cartagena (Spain) at 30° in Mediterranean Vibes — warm terracotta tones, coastal geometry, the kind of print that stops people mid-conversation.*
 
 ---
 
@@ -85,6 +87,8 @@ Two expats from different countries. The perfect mutual gift: each gets the othe
 :::
 
 ---
+
+![Map print on wall — gift mockup](/assets/images/gift-that-carries-home_print-wall-mockup.png)
 
 ## Frequently Asked Questions
 
