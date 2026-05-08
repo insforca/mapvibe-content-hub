@@ -1,0 +1,12 @@
+{
+  "name": "mapvibe-content-hub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "docmd build",
+    "dev": "docmd dev"
+  },
+  "dependencies": {
+    "@docmd/core": "^0.7.9"
+  }
+}
