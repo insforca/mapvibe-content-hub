@@ -1,5 +1,18 @@
 {
   "buildCommand": "npm install && npm run build",
   "outputDirectory": "out",
-  "framework": null
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "mapvibe-content-hub.vercel.app"
+        }
+      ],
+      "destination": "https://mapvibestudio.com/:path*",
+      "permanent": true
+    }
+  ]
 }
