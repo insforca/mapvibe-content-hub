@@ -1,0 +1,43 @@
+{
+  "name": "MapVibe Studio",
+  "description": "Custom city map art prints made to order for any city worldwide. Mediterranean Vibes (bright, colorful) and Vintage Noir (dark, editorial) styles. Diaspora and expat gifting. Ships to US and Canada.",
+  "url": "https://app.mapvibestudio.com",
+  "version": "1.0.0",
+  "documentationUrl": "https://mapvibestudio.com/llms-full.txt",
+  "provider": {
+    "organization": "MapVibe Studio",
+    "url": "https://mapvibestudio.com"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "authentication": { "schemes": ["none"] },
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["text/plain"],
+  "links": [
+    {
+      "url": "https://mapvibestudio.com/.well-known/api-catalog",
+      "type": "application/linkset+json",
+      "rel": "api-catalog",
+      "description": "API catalog (RFC 9727 linkset) — lists all AI-readable endpoints for this site"
+    }
+  ],
+  "skills": [
+    {
+      "id": "custom-city-map-print",
+      "name": "Custom City Map Print",
+      "description": "Order a personalized city map art print for any of 500+ cities worldwide. Mediterranean Vibes or Vintage Noir. Unframed or black-framed. Ships to US and Canada. $34.99-$124.99.",
+      "tags": ["custom", "city-map", "gift", "wall-art", "diaspora", "expat", "housewarming", "personalized", "latin-american"],
+      "examples": [
+        "City map print of Sao Paulo for a Brazilian friend in Miami",
+        "Housewarming gift for someone from Mexico City",
+        "Study abroad keepsake in Barcelona",
+        "Gift for a Venezuelan expat in New York"
+      ],
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain"]
+    }
+  ]
+}

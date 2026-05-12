@@ -1,26 +1,79 @@
-ewogICJidWlsZENvbW1hbmQiOiAibnBtIGluc3RhbGwgJiYgbnBtIHJ1biBidWlsZCIsCiAgIm91
-dHB1dERpcmVjdG9yeSI6ICJvdXQiLAogICJmcmFtZXdvcmsiOiBudWxsLAogICJyZWRpcmVjdHMi
-OiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAiLzpwYXRoKiIsCiAgICAgICJoYXMiOiBbCiAgICAg
-ICAgewogICAgICAgICAgInR5cGUiOiAiaG9zdCIsCiAgICAgICAgICAidmFsdWUiOiAibWFwdmli
-ZS1jb250ZW50LWh1Yi52ZXJjZWwuYXBwIgogICAgICAgIH0KICAgICAgXSwKICAgICAgImRlc3Rp
-bmF0aW9uIjogImh0dHBzOi8vd3d3Lm1hcHZpYmVzdHVkaW8uY29tLzpwYXRoKiIsCiAgICAgICJw
-ZXJtYW5lbnQiOiB0cnVlCiAgICB9CiAgXSwKICAiaGVhZGVycyI6IFsKICAgIHsKICAgICAgInNv
-dXJjZSI6ICIvKC4qKSIsCiAgICAgICJoZWFkZXJzIjogWwogICAgICAgIHsKICAgICAgICAgICJr
-ZXkiOiAiWC1Db250ZW50LVR5cGUtT3B0aW9ucyIsCiAgICAgICAgICAidmFsdWUiOiAibm9zbmlm
-ZiIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJrZXkiOiAiWC1GcmFtZS1PcHRpb25z
-IiwKICAgICAgICAgICJ2YWx1ZSI6ICJTQU1FT1JJR0lOIgogICAgICAgIH0sCiAgICAgICAgewog
-ICAgICAgICAgImtleSI6ICJYLVhTUy1Qcm90ZWN0aW9uIiwKICAgICAgICAgICJ2YWx1ZSI6ICIx
-OyBtb2RlPWJsb2NrIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImtleSI6ICJSZWZl
-cnJlci1Qb2xpY3kiLAogICAgICAgICAgInZhbHVlIjogInN0cmljdC1vcmlnaW4td2hlbi1jcm9z
-cy1vcmlnaW4iCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAia2V5IjogIlBlcm1pc3Np
-b25zLVBvbGljeSIsCiAgICAgICAgICAidmFsdWUiOiAiY2FtZXJhPSgpLCBtaWNyb3Bob25lPSgp
-LCBnZW9sb2NhdGlvbj0oKSwgcGF5bWVudD0oKSIKICAgICAgICB9LAogICAgICAgIHsKICAgICAg
-ICAgICJrZXkiOiAiQ29udGVudC1TZWN1cml0eS1Qb2xpY3kiLAogICAgICAgICAgInZhbHVlIjog
-ImRlZmF1bHQtc3JjICdzZWxmJzsgc2NyaXB0LXNyYyAnc2VsZicgJ3Vuc2FmZS1pbmxpbmUnOyBz
-dHlsZS1zcmMgJ3NlbGYnICd1bnNhZmUtaW5saW5lJyBodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMu
-Y29tOyBmb250LXNyYyAnc2VsZicgaHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbSBkYXRhOjsgaW1n
-LXNyYyAnc2VsZicgZGF0YTogaHR0cHM6OyBtZWRpYS1zcmMgJ3NlbGYnIGh0dHBzOjsgY29ubmVj
-dC1zcmMgJ3NlbGYnOyBmcmFtZS1hbmNlc3RvcnMgJ25vbmUnOyIKICAgICAgICB9LAogICAgICAg
-IHsKICAgICAgICAgICJrZXkiOiAiU3RyaWN0LVRyYW5zcG9ydC1TZWN1cml0eSIsCiAgICAgICAg
-ICAidmFsdWUiOiAibWF4LWFnZT02MzA3MjAwMDsgaW5jbHVkZVN1YkRvbWFpbnM7IHByZWxvYWQi
-CiAgICAgICAgfQogICAgICBdCiAgICB9CiAgXQp9Cg==
+{
+  "buildCommand": "npm install && npm run build && mkdir -p out/.well-known && cp -r public/.well-known/. out/.well-known/",
+  "outputDirectory": "out",
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "mapvibe-content-hub.vercel.app"
+        }
+      ],
+      "destination": "https://www.mapvibestudio.com/:path*",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/.well-known/agent-card.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/vnd.agent-card+json; charset=utf-8"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/api-catalog",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/linkset+json; charset=utf-8"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; media-src 'self' https:; connect-src 'self'; frame-ancestors 'none';"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
+      ]
+    }
+  ]
+}

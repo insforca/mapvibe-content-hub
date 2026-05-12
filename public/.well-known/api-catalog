@@ -1,0 +1,34 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://mapvibestudio.com",
+      "item": [
+        {
+          "href": "https://mapvibestudio.com/llms.txt",
+          "type": "text/plain",
+          "title": "LLM-readable site summary"
+        },
+        {
+          "href": "https://mapvibestudio.com/llms-full.txt",
+          "type": "text/plain",
+          "title": "Extended LLM context"
+        },
+        {
+          "href": "https://mapvibestudio.com/pricing.md",
+          "type": "text/markdown",
+          "title": "Machine-readable pricing"
+        },
+        {
+          "href": "https://mapvibestudio.com/agents.md",
+          "type": "text/markdown",
+          "title": "Agent instructions and capabilities"
+        },
+        {
+          "href": "https://mapvibestudio.com/.well-known/agent-card.json",
+          "type": "application/vnd.agent-card+json",
+          "title": "A2A Agent Card"
+        }
+      ]
+    }
+  ]
+}
