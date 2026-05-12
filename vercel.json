@@ -1,79 +1,48 @@
-{
-  "buildCommand": "npm install && npm run build && mkdir -p out/.well-known && cp -r public/.well-known/. out/.well-known/",
-  "outputDirectory": "out",
-  "framework": null,
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "mapvibe-content-hub.vercel.app"
-        }
-      ],
-      "destination": "https://www.mapvibestudio.com/:path*",
-      "permanent": true
-    }
-  ],
-  "headers": [
-    {
-      "source": "/.well-known/agent-card.json",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/vnd.agent-card+json; charset=utf-8"
-        },
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
-    },
-    {
-      "source": "/.well-known/api-catalog",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/linkset+json; charset=utf-8"
-        },
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
-    },
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "SAMEORIGIN"
-        },
-        {
-          "key": "X-XSS-Protection",
-          "value": "1; mode=block"
-        },
-        {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
-        },
-        {
-          "key": "Permissions-Policy",
-          "value": "camera=(), microphone=(), geolocation=(), payment=()"
-        },
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; media-src 'self' https:; connect-src 'self'; frame-ancestors 'none';"
-        },
-        {
-          "key": "Strict-Transport-Security",
-          "value": "max-age=63072000; includeSubDomains; preload"
-        }
-      ]
-    }
-  ]
-}
+ewogICJidWlsZENvbW1hbmQiOiAibnBtIGluc3RhbGwgJiYgbnBtIHJ1biBi
+dWlsZCAmJiBta2RpciAtcCBvdXQvLndlbGwta25vd24gJiYgY3AgLXIgcHVi
+bGljLy53ZWxsLWtub3duLy4gb3V0Ly53ZWxsLWtub3duLyIsCiAgIm91dHB1
+dERpcmVjdG9yeSI6ICJvdXQiLAogICJmcmFtZXdvcmsiOiBudWxsLAogICJy
+ZWRpcmVjdHMiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAiLzpwYXRoKiIs
+CiAgICAgICJoYXMiOiBbCiAgICAgICAgewogICAgICAgICAgInR5cGUiOiAi
+aG9zdCIsCiAgICAgICAgICAidmFsdWUiOiAibWFwdmliZS1jb250ZW50LWh1
+Yi52ZXJjZWwuYXBwIgogICAgICAgIH0KICAgICAgXSwKICAgICAgImRlc3Rp
+bmF0aW9uIjogImh0dHBzOi8vd3d3Lm1hcHZpYmVzdHVkaW8uY29tLzpwYXRo
+KiIsCiAgICAgICJwZXJtYW5lbnQiOiB0cnVlCiAgICB9CiAgXSwKICAiaGVh
+ZGVycyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICIvLndlbGwta25vd24v
+YWdlbnQtY2FyZC5qc29uIiwKICAgICAgImhlYWRlcnMiOiBbCiAgICAgICAg
+ewogICAgICAgICAgImtleSI6ICJDb250ZW50LVR5cGUiLAogICAgICAgICAg
+InZhbHVlIjogImFwcGxpY2F0aW9uL3ZuZC5hZ2VudC1jYXJkK2pzb247IGNo
+YXJzZXQ9dXRmLTgiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAi
+a2V5IjogIkFjY2Vzcy1Db250cm9sLUFsbG93LU9yaWdpbiIsCiAgICAgICAg
+ICAidmFsdWUiOiAiKiIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7
+CiAgICAgICJzb3VyY2UiOiAiLy53ZWxsLWtub3duL2FwaS1jYXRhbG9nIiwK
+ICAgICAgImhlYWRlcnMiOiBbCiAgICAgICAgewogICAgICAgICAgImtleSI6
+ICJDb250ZW50LVR5cGUiLAogICAgICAgICAgInZhbHVlIjogImFwcGxpY2F0
+aW9uL2xpbmtzZXQranNvbjsgY2hhcnNldD11dGYtOCIKICAgICAgICB9LAog
+ICAgICAgIHsKICAgICAgICAgICJrZXkiOiAiQWNjZXNzLUNvbnRyb2wtQWxs
+b3ctT3JpZ2luIiwKICAgICAgICAgICJ2YWx1ZSI6ICIqIgogICAgICAgIH0K
+ICAgICAgXQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICIvKC4qKSIs
+CiAgICAgICJoZWFkZXJzIjogWwogICAgICAgIHsKICAgICAgICAgICJrZXki
+OiAiWC1Db250ZW50LVR5cGUtT3B0aW9ucyIsCiAgICAgICAgICAidmFsdWUi
+OiAibm9zbmlmZiIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJr
+ZXkiOiAiWC1GcmFtZS1PcHRpb25zIiwKICAgICAgICAgICJ2YWx1ZSI6ICJT
+QU1FT1JJR0lOIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImtl
+eSI6ICJYLVhTUy1Qcm90ZWN0aW9uIiwKICAgICAgICAgICJ2YWx1ZSI6ICIx
+OyBtb2RlPWJsb2NrIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAg
+ImtleSI6ICJSZWZlcnJlci1Qb2xpY3kiLAogICAgICAgICAgInZhbHVlIjog
+InN0cmljdC1vcmlnaW4td2hlbi1jcm9zcy1vcmlnaW4iCiAgICAgICAgfSwK
+ICAgICAgICB7CiAgICAgICAgICAia2V5IjogIlBlcm1pc3Npb25zLVBvbGlj
+eSIsCiAgICAgICAgICAidmFsdWUiOiAiY2FtZXJhPSgpLCBtaWNyb3Bob25l
+PSgpLCBnZW9sb2NhdGlvbj0oKSwgcGF5bWVudD0oKSIKICAgICAgICB9LAog
+ICAgICAgIHsKICAgICAgICAgICJrZXkiOiAiQ29udGVudC1TZWN1cml0eS1Q
+b2xpY3kiLAogICAgICAgICAgInZhbHVlIjogImRlZmF1bHQtc3JjICdzZWxm
+Jzsgc2NyaXB0LXNyYyAnc2VsZicgJ3Vuc2FmZS1pbmxpbmUnOyBzdHlsZS1z
+cmMgJ3NlbGYnICd1bnNhZmUtaW5saW5lJyBodHRwczovL2ZvbnRzLmdvb2ds
+ZWFwaXMuY29tOyBmb250LXNyYyAnc2VsZicgaHR0cHM6Ly9mb250cy5nc3Rh
+dGljLmNvbSBkYXRhOjsgaW1nLXNyYyAnc2VsZicgZGF0YTogaHR0cHM6OyBt
+ZWRpYS1zcmMgJ3NlbGYnIGh0dHBzOjsgY29ubmVjdC1zcmMgJ3NlbGYnOyBm
+cmFtZS1hbmNlc3RvcnMgJ25vbmUnOyIKICAgICAgICB9LAogICAgICAgIHsK
+ICAgICAgICAgICJrZXkiOiAiU3RyaWN0LVRyYW5zcG9ydC1TZWN1cml0eSIs
+CiAgICAgICAgICAidmFsdWUiOiAibWF4LWFnZT02MzA3MjAwMDsgaW5jbHVk
+ZVN1YkRvbWFpbnM7IHByZWxvYWQiCiAgICAgICAgfQogICAgICBdCiAgICB9
+CiAgXQp9Cg==
